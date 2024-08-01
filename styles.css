@@ -483,3 +483,40 @@ body,html {
     width: 100%;
     margin-bottom: 10vh;
 }
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    width: 47vw;
+    padding-bottom: 10vh;
+}
+.divskill {
+    display: flex;
+    justify-content: center;
+}
+
+.skills h2 {
+
+    color: #f77062!important;
+    padding-right: 5vw;
+    font-size: 10vh;
+    border-right: 5px solid;
+    border-color: #f77062;
+}
+
+.skills ul {
+    color: #f77062;
+    border-right: 5px solid;
+    border-color: #f77062;
+    padding-right: 4vw;
+    
+}
+
+.skills li {
+    padding-bottom: 2vh;
+    font-size: 3vh;
+}
+
+.soft {
+    border-right: 0px !important; 
+}
