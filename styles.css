@@ -386,7 +386,7 @@ body,html {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-colour: transparent;
-    padding-bottom: 10px;
+    padding-bottom: 10vh;
 }
 
 
@@ -395,7 +395,9 @@ body,html {
     background: #682ae9;
     border-radius: 10px;
     margin-bottom: 40px;
-    padding: 10px 12px;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding: 4vh 5vw;
     box-sizing: border-box;
 
 }
@@ -403,7 +405,7 @@ body,html {
 .content__about h2 {
     text-align: center;
     font-weight: 600;
-    margin: 10px 0;
+    padding-bottom: 3vh;
 }
 
 .content__about:hover {
@@ -419,34 +421,55 @@ body,html {
     
 }
 
-.growth h1 {
+.headgrowth {
     font-size: 4rem;
-    background-color: #682ae9;
+    background-color: rgba(247, 112,98,5);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-colour: transparent;
-    padding-bottom: 10px;
+    padding-bottom: 10vh;
+}
+
+.year {
+    font-size: 4rem;
+    background-color: rgba(247, 112,98,5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-colour: transparent;
+    padding-bottom: 10vh;
+    padding-top: 5vh;
 }
 
 
 .content__growth {
+    
     flex-basis: 31%;
     background: #682ae9;
     border-radius: 10px;
-    margin-bottom: 40px;
-    padding: 10px 12px;
+    margin-bottom: 10vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding: 4vh 5vw;
     box-sizing: border-box;
 
 }
 
 .content__growth h2 {
     text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
+    font-weight: 1000;
+    font-size: 35px;
+    padding-bottom: 3vh;
 }
 
+.content__growth p {
+    font-size: 25px;
+}
+.content__about p {
+    font-size: 25px;
+}
 .content__growth:hover {
     box-shadow: 0 0 20px 0px rgba(247, 112,98,5);
 }
@@ -458,5 +481,5 @@ body,html {
     position: relative;
     overflow: hidden; 
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 10vh;
 }
